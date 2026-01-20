@@ -5,7 +5,7 @@ int main() {
     char username[20], password[20];
 
     // Predefined credentials
-    char correctUser[] = "Saiprasad";
+    char correctUser[] = "Sai";
     char correctPass[] = "asdfg1234!@#$";
 
     printf("Enter Username: ");
