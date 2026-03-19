@@ -1,3 +1,0 @@
-Hello 123
-Value is 456
-Number 789
