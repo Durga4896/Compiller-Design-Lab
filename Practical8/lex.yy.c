@@ -451,8 +451,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexer.l"
-#line 2 "lexer.l"
+#line 1 "code.c"
+#line 2 "code.c"
 #include <stdio.h>
 #include <string.h>
 
@@ -683,7 +683,7 @@ YY_DECL
 		}
 
 	{
-#line 16 "lexer.l"
+#line 16 "code.c"
 
 #line 688 "lex.yy.c"
 
@@ -744,12 +744,12 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 17 "lexer.l"
+#line 17 "code.c"
 { printf("NUMBER: %s\n", yytext); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 19 "lexer.l"
+#line 19 "code.c"
 {
                         if(isKeyword(yytext))
                             printf("KEYWORD: %s\n", yytext);
@@ -759,22 +759,22 @@ YY_RULE_SETUP
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 26 "lexer.l"
+#line 26 "code.c"
 { printf("RELATIONAL OPERATOR: %s\n", yytext); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 28 "lexer.l"
+#line 28 "code.c"
 { printf("ARITHMETIC OPERATOR: %s\n", yytext); }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 30 "lexer.l"
+#line 30 "code.c"
 { printf("ASSIGNMENT OPERATOR: %s\n", yytext); }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 32 "lexer.l"
+#line 32 "code.c"
 {
                         printf("SPECIAL SYMBOL: %s\n", yytext);
                       }
@@ -782,17 +782,17 @@ YY_RULE_SETUP
 case 7:
 /* rule 7 can match eol */
 YY_RULE_SETUP
-#line 36 "lexer.l"
+#line 36 "code.c"
 { /* Ignore whitespace */ }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 38 "lexer.l"
+#line 38 "code.c"
 { printf("UNKNOWN: %s\n", yytext); }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 39 "lexer.l"
+#line 39 "code.c"
 ECHO;
 	YY_BREAK
 #line 798 "lex.yy.c"
@@ -1800,7 +1800,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 39 "lexer.l"
+#line 39 "code.c"
 
 
 int main() {
